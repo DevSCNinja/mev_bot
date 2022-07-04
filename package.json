@@ -1,0 +1,19 @@
+{
+  "name": "7_4_sale",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc index.ts --esModuleInterop true && node index.js",
+    "polygon": "tsc polygon.ts --esModuleInterop true && node polygon.js"
+  },
+  "devDependencies": {
+    "@typechain/ethers-v5": "^10.1.0",
+    "@types/node": "^18.0.1",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "ts-node": "^10.8.2",
+    "typechain": "^8.1.0",
+    "typescript": "^4.7.4"
+  }
+}
